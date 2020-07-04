@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>React TodoMVC</title>
+
+  <link rel="stylesheet" href="node_modules/todomvc-app-css/index.css">
+</head>
+<body>
+  <article id="root" class="todoapp"></article>
+
+  <footer class="info">
+    <p>Double-click to edit a todo</p>
+    <p>Written by <a href="https://github.com/yeefun">Yeefun</a></p>
+    <p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+  </footer>
+
+  <style>
+    .toggle,
+    .destroy,
+    label {
+      cursor: pointer;
+    }
+  </style>
+
+  <!-- <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script> -->
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+
+  <script src="https://unpkg.com/react-router-dom/umd/react-router-dom.min.js"></script>
+
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+  <script type="text/babel" src="index.js"></script>
+</body>
+</html>
