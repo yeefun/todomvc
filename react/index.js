@@ -73,7 +73,6 @@ class TodoListItem extends React.Component {
   constructor(props) {
     super(props)
 
-    this.checkboxCompletedRef = React.createRef()
     this.inputEditedRef = React.createRef()
 
     this.state = {
@@ -144,7 +143,6 @@ class TodoListItem extends React.Component {
             type="checkbox"
             checked={this.todoCompleted}
             onChange={this.toggleCompleted}
-            ref={this.checkboxCompletedRef}
           />
           <label onDoubleClick={this.editTodo}>{this.todoTitle}</label>
           <button className="destroy" onClick={() => removeTodo(todoIdx)} />
