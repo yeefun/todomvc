@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,uBAGE,cACF","file":"main.ac6f81b3.chunk.css","sourcesContent":[".toggle,\n.destroy,\nlabel {\n  cursor: pointer;\n}\n"]}
